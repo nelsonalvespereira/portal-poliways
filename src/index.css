@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Fórmulas (KaTeX) dentro do texto das questões */
+.formula-inline .katex { font-size: 1.08em; }
+.formula-display { display: block; width: 100%; max-width: 100%; overflow-x: auto; overflow-y: hidden; margin: 0.5rem 0; text-align: center; }
+.formula-display .katex-display { margin: 0; }
+
+/* Títulos com a fonte de marca do POLIWAYS (Archivo) em todas as telas */
+h1, h2, h3, .font-display { font-family: 'Archivo', 'Inter', ui-sans-serif, system-ui, sans-serif; letter-spacing: -0.01em; }
